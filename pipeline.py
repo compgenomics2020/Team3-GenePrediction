@@ -112,13 +112,13 @@ def concat():
 
 
 
-#Running Prodigal and Glimmer
+#Running Prodigal and GeneMarkS-2
 for files in filename1:
         prefix = files[0:7]
         command = "prodigal -i GenomeAssembly/"+files+" -d ./ToolOutputs/Prodigal_nucl/"+prefix+"_nucl_prodigal -f gff -o ./ToolOutputs/Prodigal_pos/"+prefix+"_pos_prodigal"
         subprocess.call(command,shell=True)
          
-        command = "perl gms2.pl --seq ../GenomeAssembly/"+files+" --genome-type bacteria --output ../ToolOutputs/GeneMark_pos1/"+prefix+"_pos_genemark --format gff"
+        command = "perl gms2.pl --seq ../GenomeAssembly/"+files+" --genome-type bacteria -fnn ../ToolOutputs/GeneMark_nucl/"+prefix+"_nucl_genemark --output ../ToolOutputs/GeneMark_pos1/"+prefix+"_pos_genemark --format gff"
         subprocess.call(command,shell=True)
        
 
