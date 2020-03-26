@@ -15,7 +15,7 @@ This pipeline is designed to predict genes from assembled genomes using a number
 
 #### Script Execution
 
-######   geneprediction_pipeline.py -h {Help}
+######   `geneprediction_pipeline.py -h {Help}`
 ######   geneprediction_pipeline.py -in <Genome Assembly Input Directory> -o <Output Directory> -b <CDS FNA file>
 
 
