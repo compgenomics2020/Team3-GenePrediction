@@ -13,18 +13,18 @@ This pipeline is designed to predict genes from assembled genomes using a number
 
 ### Pipeling Requirements
 
-### Script Execution
+#### Script Execution
 
-#   geneprediction_pipeline.py -h {Help}
-#   geneprediction_pipeline.py -in <Genome Assembly Input Directory> -o <Output Directory> -b <CDS FNA file>
+######   geneprediction_pipeline.py -h {Help}
+######   geneprediction_pipeline.py -in <Genome Assembly Input Directory> -o <Output Directory> -b <CDS FNA file>
 
 
-# OPTIONS
-#         -in     dir             Directory with fq.gz
-#         -o      dir             output folder
-#         -R      file    Reference genome file
-#         --steps list    Comma separated list of steps to run
-#                                         Valid steps: abyss, velvet, spades
+##### OPTIONS
+######         -in     dir             Directory with fq.gz
+######         -o      dir             output folder
+######         -R      file    Reference genome file
+######         --steps list    Comma separated list of steps to run
+######                                         Valid steps: abyss, velvet, spades
 
 ### Output files
 
