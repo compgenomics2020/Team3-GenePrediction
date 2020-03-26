@@ -14,9 +14,12 @@ This pipeline is designed to predict genes from assembled genomes using a number
 * BLAST
 
 ##### For predicting the non-coding genes it uses the following programs:
-<fill-in>
+* Aragorn
+* Barrnap
+* RNAmmer
+* Infernal
 
-### Pipeling Requirements
+### Pipeline Requirements
 
 ### Script Execution
 
