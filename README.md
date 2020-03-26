@@ -21,7 +21,7 @@ This pipeline is designed to predict genes from assembled genomes using a number
 
 ##### OPTIONS
 `        -in     dir             Directory with fq.gz` <br />
-`        -o      dir             output folder`
+`        -o      dir             output folder` <br />
 `        -b      file    Reference genome file`
 
 
