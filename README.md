@@ -2,7 +2,7 @@
 Team3 Gene Prediction Team:<br />
 * Sonali Gupta <br/>
 * Ahish Melkote Sujay <br/>
-* Pallavi Misra <br/>
+* Pallavi Misra! <br/>
 * Cheng Shen-Yi <br/>
 * Jie Zhou <br/>
 
