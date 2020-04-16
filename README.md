@@ -1,10 +1,10 @@
 # Team3-Gene Prediction
 Team3 Gene Prediction Team:<br />
-*Sonali Gupta <br/>
-*Ahish Sujay <br/>
-*Pallavi Misra <br/>
-*Cheng Shen-Yi <br/>
-*Jie Zhou <br/>
+* Sonali Gupta <br/>
+* Ahish Sujay <br/>
+* Pallavi Misra <br/>
+* Cheng Shen-Yi <br/>
+* Jie Zhou <br/>
 
 ## Summary
 This pipeline is designed to predict genes from assembled genomes using a number of assembly programs and techniques (ab initio and homology based).
