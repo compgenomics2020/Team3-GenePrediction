@@ -17,16 +17,19 @@ This pipeline is designed to predict genes from assembled genomes using a number
 * [BEDTools](https://bedtools.readthedocs.io/en/latest/content/installation.html): Tools to merge *ab-initio* coding results
 
 #### For predicting the non-coding genes it uses the following programs:
-* [ARAGORN](http://130.235.244.92/ARAGORN/Downloads/):
-* [BARRNAP](https://github.com/tseemann/barrnap):
-* [RNAmmer](https://services.healthtech.dtu.dk/cgi-bin/sw_request):
-* [Infernal](http://eddylab.org/infernal/):
+* [ARAGORN](http://130.235.244.92/ARAGORN/Downloads/): a tool for predicting tRNA/tmRNA
+* [BARRNAP](https://github.com/tseemann/barrnap): a tool for predicting rRnNA
+* [RNAmmer](https://services.healthtech.dtu.dk/cgi-bin/sw_request): a tool for predicting rRnNA
+* [Infernal](http://eddylab.org/infernal/): a tool for predicting non-coding gene
 
 ## Pipeline Requirements
 
-## Script Execution:
+### Script Execution: ###
 `geneprediction_pipeline.py -h {Help}`<br />
 `geneprediction_pipeline.py -i <Genome Assembly Input Directory> -o <Output Directory> -b <CDS FNA file>` <br />
+
+## Non-coding only pipeline Execution:
+`NonCodingPipeline.py -i <path/to/input> -o <path/to/output>`<br />
 
 ##### Options
 `        -i     dir             Directory with fq.gz` <br />
