@@ -20,7 +20,7 @@ conda activate T3GP
 
 #you can install new tools using conda install toolname or look up conda documentation for the exact code needed. 
 
-##########Setting up the Conda T3FN for Genome Assembly#############
+##########Setting up the Conda T3GP for Genome Assembly#############
 #blast v2.9.0
 conda install -c bioconda blast
 #bedtools 2.29.2
