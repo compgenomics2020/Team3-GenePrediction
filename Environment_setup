@@ -1,9 +1,8 @@
 ######## Setting up the enviroment documentation ########
 
-#go to the path where miniconda is to be added and export it to the $PATH vairble in your .bashrc
+###go to the path where miniconda is to be added and export it to the $PATH vairble in your .bashrc
 
 ### the following steps are to install miniconda and only one person needs to do it
-
 
 wget https://repo.anaconda.com/miniconda/Miniconda2-latest-Linux-x86_64.sh
 
