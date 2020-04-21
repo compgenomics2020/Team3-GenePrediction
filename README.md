@@ -38,5 +38,5 @@ This pipeline is designed to predict genes from assembled genomes using a number
 
 
 ## Output files:
-gene_prediction.py - Output directory with FASTA files containing coding genes (True positive and False positive FASTA headers)<br />
-NonCodingPipeline.py - Output directory with FASTA files containing no-coding genes<br />
+* gene_prediction.py - Output directory with FASTA files containing coding genes (True positive and False positive FASTA headers)<br />
+* NonCodingPipeline.py - Output directory with FASTA files containing no-coding genes<br />
