@@ -25,8 +25,8 @@ This pipeline is designed to predict genes from assembled genomes using a number
 ## Pipeline Requirements
 
 ### Script Execution: ###
-`geneprediction_pipeline.py -h {Help}`<br />
-`geneprediction_pipeline.py -i <Genome Assembly Input Directory> -o <Output Directory> -b <CDS FNA file>` <br />
+`gene_prediction.py -h {Help}`<br />
+`gene_prediction.py -i <Genome Assembly Input Directory> -o <Output Directory> -b <CDS FNA file>` <br />
 
 ## Non-coding only pipeline Execution:
 `NonCodingPipeline.py -i <path/to/input> -o <path/to/output>`<br />
@@ -38,3 +38,5 @@ This pipeline is designed to predict genes from assembled genomes using a number
 
 
 ## Output files:
+gene_prediction.py - Output directory with FASTA files containing coding genes (True positive and False positive FASTA headers)
+NonCodingPipeline.py - Output directory with FASTA files containing no-coding genes
